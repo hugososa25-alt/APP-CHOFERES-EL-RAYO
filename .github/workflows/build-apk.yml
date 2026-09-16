@@ -15,7 +15,7 @@ jobs:
 
       - name: Descomprimir proyecto Android
         run: |
-          unzip -o APP_CHOFERES_ANDROID_FUENTE_V2.zip -d android-src
+          unzip -o APP_CHOFERES_ANDROID_FUENTE_v2.zip -d android-src
 
       - name: Buscar proyecto Gradle
         id: locate
